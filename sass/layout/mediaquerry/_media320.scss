@@ -1,0 +1,64 @@
+@media(max-width:320px){
+    header{
+        div img{
+            width: 50px;
+            height: 100%;
+            margin-left: 2px;
+        }
+        ul li{
+        margin: 10px;
+        margin-left: 20px;
+        a{
+            font-size: 11px;
+        }
+        }
+    }
+    .messiFlia{
+        height: 240px;
+    }
+    .bio{
+        font-size: 1rem;
+    }
+    .texto{
+        font-size: 1rem;
+    }
+    .messiCopa{
+        height: 15rem;
+    }
+    .textofcb{
+        font-size: 1rem;
+    }
+    .titulochamps{
+        font-size: .75rem;
+    }
+    .champions{
+        font-size: 12px;
+    }
+    .messichamp{
+        width: 5.625rem;
+        height: 5.625rem;
+    }
+    .messiPsg{
+        height: 15rem;
+    }
+    .textopsg{
+        font-size: 1rem;
+    }
+    .messiInter{
+        height: 15rem;
+    }
+    .textointer{
+        font-size: 1rem;
+    }
+    .messiSele{
+        height: 15rem;
+    }
+    .textoarg{
+        font-size: 1rem;
+    }
+    .tamanoLogo{
+        width: 30px;
+        height: 30px;
+        padding: 1px;
+    }
+}

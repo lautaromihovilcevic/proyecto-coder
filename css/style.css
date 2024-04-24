@@ -1,0 +1,309 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #04009A;
+  width: 100%;
+  align-items: center;
+  position: sticky;
+  top: 0; }
+  header div img {
+    width: 4.6875rem;
+    height: 99%; }
+  header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    header ul li {
+      margin: 2.1875rem; }
+      header ul li a {
+        text-decoration: none;
+        color: blanchedalmond;
+        font-size: 1.25rem; }
+        header ul li a:hover {
+          color: #00aeff;
+          text-decoration: underline;
+          background-color: white;
+          border-radius: .3125rem; }
+
+body {
+  background-color: #e2e2e2; }
+
+.messiFlia {
+  width: 100%;
+  height: 280px;
+  margin-bottom: -0.25rem; }
+
+.bio {
+  width: 100%;
+  background-color: #04009A;
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  font-size: 1.875rem;
+  padding: .3125rem; }
+
+.texto {
+  padding: .3125rem .3125rem;
+  margin-bottom: .875rem;
+  text-indent: 1.25rem;
+  font-size: 1.875rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  text-align: justify; }
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "img2 img2 img2 img2 img3 img3 img3 img3" "img2 img2 img2 img2 img3 img3 img3 img3" "img1 img1 img1 img4 img4 img4 img5 img5"; }
+
+.galeria img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.img1 {
+  grid-area: img1; }
+
+.img2 {
+  grid-area: img2; }
+
+.img3 {
+  grid-area: img3; }
+
+.img4 {
+  grid-area: img4; }
+
+.img5 {
+  grid-area: img5; }
+
+.messiCopa {
+  width: 100%;
+  height: 24.375rem;
+  margin-bottom: -0.25rem; }
+
+.textofcb {
+  padding: .3125rem .3125rem;
+  text-indent: 1.25rem;
+  font-size: 1.875rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  text-align: justify; }
+
+.titulochamps {
+  width: 100%;
+  background-color: #04009A;
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  font-size: 1.875rem;
+  padding: .3125rem; }
+
+.messichamp {
+  width: 11.875rem;
+  height: 11.875rem; }
+
+.messichamp:hover {
+  animation-name: background-animacion;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2s; }
+
+@keyframes background-animacion {
+  0% {
+    filter: drop-shadow(0px -10px 2px #003cff); }
+  25% {
+    filter: drop-shadow(10px 0px 2px #1f4bc5); }
+  50% {
+    filter: drop-shadow(0px 10px 2px #eb1722); }
+  75% {
+    filter: drop-shadow(-10px 0px 2px #ff0022); }
+  100% {
+    filter: drop-shadow(0px -10px 2px #003cff); } }
+
+.fotoscham {
+  display: flex;
+  justify-content: space-around;
+  padding: .9375rem .625rem;
+  padding-top: 25px;
+  flex-wrap: wrap; }
+
+.champions {
+  display: flex;
+  justify-content: center;
+  font-size: 1.125rem;
+  padding-top: 5px;
+  margin-bottom: 5px; }
+
+.messiPsg, .messiInter, .messiSele {
+  width: 100%;
+  height: 25.625rem;
+  margin-bottom: -0.25rem; }
+
+.textopsg {
+  padding: .3125rem .3125rem;
+  text-indent: 1.25rem;
+  font-size: 1.875rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  text-align: justify; }
+
+.galeria1 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "img1 img1 img1 img1 img1 img4 img4 img4" "img2 img2 img2 img2 img2 img4 img4 img4" "img5 img5 img5 img5 img5 img5 img3 img3"; }
+
+.galeria1 img {
+  width: 100%;
+  height: 100%; }
+
+.textointer {
+  padding: .3125rem .3125rem;
+  text-indent: 1.25rem;
+  font-size: 1.875rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  text-align: justify; }
+
+.textoarg {
+  padding: .3125rem .3125rem;
+  text-indent: 1.25rem;
+  font-size: 1.875rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  text-align: justify; }
+
+.tamanoLogo {
+  width: 3.125rem;
+  height: 3.125rem;
+  padding: 5px; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #04009A;
+  padding: .3125rem; }
+  footer li a {
+    text-decoration: none;
+    font-size: 1.375rem; }
+
+@media (max-width: 1440px) {
+  header ul li a {
+    font-size: 30px; }
+  .messiFlia {
+    height: 31.25rem; }
+  .bio {
+    font-size: 1.875rem; }
+  .texto {
+    font-size: 1.875rem; }
+  .messiCopa {
+    height: 31.25rem; }
+  .messiPsg, .messiInter, .messiSele {
+    height: 31.25rem; }
+  .messiInter {
+    height: 31.25rem; }
+  .messiSele {
+    height: 31.25rem; } }
+
+@media (max-width: 1024px) {
+  header ul li a {
+    font-size: 1.25rem; }
+  .messiFlia {
+    height: 23.75rem; }
+  .bio {
+    font-size: 1.5rem; }
+  .texto {
+    font-size: 1.375rem; }
+  .messiCopa {
+    height: 23.75rem; }
+  .textofcb {
+    font-size: 1.375rem; }
+  .titulochamps {
+    font-size: 1.5rem; }
+  .messichamp {
+    width: 8.75rem;
+    height: 8.75rem; }
+  .messiPsg, .messiInter, .messiSele {
+    height: 23.75rem; }
+  .messiInter {
+    height: 23.75rem; }
+  .messiSele {
+    height: 23.75rem; } }
+
+@media (max-width: 768px) {
+  header ul li {
+    margin: 1.5625rem; }
+    header ul li a {
+      font-size: .9375rem; }
+  .messiFlia {
+    height: 18.125rem; }
+  .bio {
+    font-size: 1.5rem; }
+  .messiCopa {
+    height: 18.125rem; }
+  .textofcb {
+    font-size: 1.25rem; }
+  .titulochamps {
+    font-size: 1.25rem; }
+  .messichamp {
+    width: 7.5rem;
+    height: 7.5rem; }
+  .messiPsg, .messiInter, .messiSele {
+    height: 18.125rem; }
+  .messiInter {
+    height: 18.125rem; }
+  .messiSele {
+    height: 18.125rem; } }
+
+@media (max-width: 320px) {
+  header div img {
+    width: 50px;
+    height: 100%;
+    margin-left: 2px; }
+  header ul li {
+    margin: 10px;
+    margin-left: 20px; }
+    header ul li a {
+      font-size: 11px; }
+  .messiFlia {
+    height: 240px; }
+  .bio {
+    font-size: 1rem; }
+  .texto {
+    font-size: 1rem; }
+  .messiCopa {
+    height: 15rem; }
+  .textofcb {
+    font-size: 1rem; }
+  .titulochamps {
+    font-size: .75rem; }
+  .champions {
+    font-size: 12px; }
+  .messichamp {
+    width: 5.625rem;
+    height: 5.625rem; }
+  .messiPsg, .messiInter, .messiSele {
+    height: 15rem; }
+  .textopsg {
+    font-size: 1rem; }
+  .messiInter {
+    height: 15rem; }
+  .textointer {
+    font-size: 1rem; }
+  .messiSele {
+    height: 15rem; }
+  .textoarg {
+    font-size: 1rem; }
+  .tamanoLogo {
+    width: 30px;
+    height: 30px;
+    padding: 1px; } }
